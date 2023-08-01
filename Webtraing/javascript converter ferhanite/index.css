@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(236, 238, 135);
+}
+#wrapper{
+    background-color: aqua;
+    width:70vh ;
+    height:60vh ;
+    margin-top:17vh ;
+    margin-left:70vh ;
+    border-radius:30px ;
+    
+}
+h1{
+    margin-left:150px  ;
+    margin-top:20px ;
+
+}
+input{
+    margin-left:10vh;
+    padding: 14px;
+    width:300px ;
+    border-radius: 5px;
+    
+    
+}
+button{
+    margin-left:150px ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top:30px ;
+    display: inline-block;
+}
+button:hover{
+    background-color: blueviolet;
+
+}
+button:active{
+    color: rgb(252, 247, 247);
+}
+#result{
+    text-align: center;
+    padding: 64px;
+    font-size: 24px;
+}

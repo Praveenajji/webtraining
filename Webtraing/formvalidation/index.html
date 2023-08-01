@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="in-form">
+        <div>
+            <h1>Welcome</h1>
+        </div>
+        <div>
+            <label>
+                Email
+            </label>
+            <input type="email" id="email">
+        </div>
+        <br><br>
+        <div>
+            <label>
+                Password
+            </label>
+            <input type="password" id="Password" >
+        </div>
+         
+         <div class="list" >
+            <div class="point1">
+            <input type="radio" value="Lowercase"  id="lower">
+            <label for="Lowercase">Lowercase &Uppercase</label>
+             
+             </div>
+             <br>
+             <div class=point2>
+             <input type="radio" value="Number"  id="Number">
+             <label for="Number">Number(0-9)</label>
+            </div>
+            <br>
+            <div class="point3">
+            <input type="radio" value="Special"  id="Special">
+            <label for="Special">Special Character (!@#$%^&*)</label>
+            </div>
+            <br>
+            <div class="point4">
+            <input type="radio" value="Lowercase &Uppercase"  type="Atleast">
+            <label>Atleast 8 Character</label>
+            </div>
+        
+            <br>
+            <div id="button1">
+                <button type="submit" onclick="my()">Create Account</button>
+            </div>
+            <div id="signin">
+                <p>already have an account ? Sign in <a href="#">here</a></p>
+            </div>
+          </div>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
